@@ -1,3 +1,0 @@
-#Sample
-
-some text
