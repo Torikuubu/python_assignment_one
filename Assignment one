@@ -1,47 +1,23 @@
 #Q1
 
 number_1 = int(input("Enter number_1: "))
-
 number_2 = int(input("Enter number_2: "))
-
-
-
 total= "number_1" + "number_2"
-
-
-
 print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a delicious total of ",number_1 + number_2, "cookies!")
-
-
 
 #Q2
 
 number_1 = int(input("Enter number_1: "))
-
 number_2 = int(input("Enter number_2: "))
-
-
-
 total= "number_1" + "number_2"
-
-
-
 print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a delicious total of ",number_1 + number_2, "cookies!")
-
 
 
 #Q3
 
 number_1 = int(input("Enter number_1: "))
-
 number_2 = int(input("Enter number_2: "))
-
-
-
 total= "number_1" + "number_2"
-
-
-
 print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a delicious total of ",number_1 + number_2, "cookies!")
 
 
@@ -49,15 +25,8 @@ print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a de
 #Q4
 
 number_1 = int(input("Enter number_1: "))
-
 number_2 = int(input("Enter number_2: "))
-
-
-
 total= "number_1" + "number_2"
-
-
-
 print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a delicious total of ",number_1 + number_2, "cookies!")
 
 
@@ -65,17 +34,9 @@ print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a de
 #Q5
 
 number_1 = int(input("Enter number_1: "))
-
 number_2 = int(input("Enter number_2: "))
-
-
-
 total= "number_1" + "number_2"
-
-
-
 print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a delicious total of ",number_1 + number_2, "cookies!")
-
 
 
 
@@ -83,29 +44,17 @@ print("You have a total of",number_1,"cookies +",number_2 ,"cookies, that's a de
 #Q6
 
 print("Welcome to the Mad Scientist's Lab!")
-
 print("Enter two or three ingredients to create a silly potion name.")
 
-
-
 ingredient_1 = input("Enter the first ingredient: ").capitalize()
-
 ingredient_2 = input("Enter the second ingredient: ").capitalize()
-
 ingredient_3 = input("Enter the third ingredient (optional): ").capitalize()
 
-
-
 if ingredient_3:
-
     potion_name = ingredient_1 + ", " + ingredient_2 + ", and " + ingredient_3 + " Potion!"
 
 else:
-
     potion_name = ingredient_1 + " and " + ingredient_2 + " Potion!"
-
-
-
 print("\nMixing " + ingredient_1 + " and " + ingredient_2 + (" and " + ingredient_3 if ingredient_3 else "") + " creates the " + potion_name)
 
 
